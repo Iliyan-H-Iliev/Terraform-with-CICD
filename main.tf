@@ -5,6 +5,13 @@ terraform {
       version = "4.26.0"
     }
   }
+  backend "azurerm" {
+  resource_group_name  = "StorageRG"
+  storage_account_name = "iliyanstorage5464"
+  container_name       = "iliyancontainer"
+  key                 = "terraform.tfstate"
+}
+
 }
 
 provider "azurerm" {
