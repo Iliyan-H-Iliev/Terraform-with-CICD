@@ -1,5 +1,4 @@
 .terraform.lock.hcl
-.github/workflows/terraform_plan_and_apply.yml
 .terraform/providers/registry.terraform.io/hashicorp/azurerm/4.26.0/windows_386/LICENSE.txt
 .terraform/providers/registry.terraform.io/hashicorp/azurerm/4.26.0/windows_386/terraform-provider-azurerm_v4.26.0_x5.exe
 .terraform/providers/registry.terraform.io/hashicorp/random/3.7.1/windows_386/LICENSE.txt
